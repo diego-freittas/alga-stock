@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../logo.svg';
+import ClassComponent from '../ClassComponent';
 import TestComponent from '../TestComponent';
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <TestComponent/>
+          <ClassComponent name='Mundoo props'/>
         </p>
         <a
           className="App-link"
